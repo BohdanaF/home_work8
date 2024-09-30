@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    margin-bottom: 10px;
+}
+
+.block {
+    background-color: grey;
+    border: 1px solid black;
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.second {
+    display: flex;
+}
+
+.one {
+    justify-content: flex-end;
+}
+
+.another {
+    justify-content: center;
+}

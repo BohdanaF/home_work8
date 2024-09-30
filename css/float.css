@@ -1,0 +1,44 @@
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+    margin-bottom: 10px;
+}
+
+.block {
+    background-color: grey;
+    border: 1px solid black;
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.one {
+    float: left;
+}
+
+.two {
+    float: right;
+}
+
+.big {
+    float: right;
+    padding: 42px;
+}
+
+.second {
+    float: right;
+}
+
+.big-last {
+    float: left;
+    padding: 42px;
+    margin-left: 355px
+}
+
+.last {
+    float: right;
+    margin-right: 355px;
+}
